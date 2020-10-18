@@ -4,6 +4,9 @@ import ClassComp from './Components/ClassComponent';
 import Click from './Components/Click';
 import Counter from './Components/Counter';
 import ParentComp from './Components/ParentComp';
+import Welcomebox from './Components/Welcomebox';
+import Dashboardbox from './Components/Dashboardbox';
+
 import './App.css';
 
 function App() {
@@ -15,6 +18,10 @@ function App() {
       <Click />
       <Counter />
       <ParentComp />
+      <div className='rowC'>
+        <Welcomebox />
+        <Dashboardbox />
+      </div>
     </div>
   );
 }
